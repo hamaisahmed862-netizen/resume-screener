@@ -10,12 +10,65 @@ model = SentenceTransformer("all-MiniLM-L6-v2")
 
 # a basic list of skills to look for in job descriptions
 SKILLS_LIST = [
-    "python", "java", "javascript", "sql", "machine learning",
-    "deep learning", "nlp", "data analysis", "excel", "power bi",
-    "tableau", "communication", "leadership", "project management",
-    "docker", "git", "aws", "react", "node", "c++", "r", "tensorflow",
-    "pytorch", "scikit-learn", "pandas", "numpy", "fastapi", "flask",
-    "django", "mongodb", "postgresql", "agile", "scrum"
+    # programming languages
+    "python", "java", "javascript", "typescript", "c", "c++", "c#",
+    "r", "swift", "kotlin", "go", "rust", "php", "ruby", "scala",
+    "matlab", "perl", "bash", "shell scripting",
+
+    # web development
+    "html", "css", "react", "angular", "vue", "node", "nodejs",
+    "express", "django", "flask", "fastapi", "spring", "asp.net",
+    "next.js", "tailwind", "bootstrap", "rest api", "graphql",
+    "webpack", "jquery",
+
+    # data science & ml
+    "machine learning", "deep learning", "nlp", "natural language processing",
+    "computer vision", "data analysis", "data science", "data mining",
+    "feature engineering", "model evaluation", "statistical analysis",
+    "hypothesis testing", "regression", "classification", "clustering",
+    "neural networks", "reinforcement learning", "transfer learning",
+    "time series", "forecasting",
+
+    # ml libraries & frameworks
+    "tensorflow", "pytorch", "keras", "scikit-learn", "hugging face",
+    "transformers", "opencv", "nltk", "spacy", "xgboost", "lightgbm",
+    "catboost", "pandas", "numpy", "scipy", "matplotlib", "seaborn",
+    "plotly", "streamlit", "gradio",
+
+    # databases
+    "sql", "mysql", "postgresql", "mongodb", "sqlite", "redis",
+    "cassandra", "oracle", "firebase", "dynamodb", "elasticsearch",
+    "nosql", "database design", "data modeling",
+
+    # cloud & devops
+    "aws", "azure", "google cloud", "gcp", "docker", "kubernetes",
+    "terraform", "ansible", "jenkins", "github actions", "ci/cd",
+    "linux", "unix", "nginx", "apache",
+
+    # data & bi tools
+    "power bi", "tableau", "excel", "google sheets", "looker",
+    "qlik", "dax", "etl", "data warehouse", "data pipeline",
+    "airflow", "spark", "hadoop", "kafka", "dbt",
+
+    # version control & tools
+    "git", "github", "gitlab", "bitbucket", "jira", "confluence",
+    "postman", "vs code", "jupyter", "docker compose",
+
+    # soft skills
+    "communication", "leadership", "teamwork", "problem solving",
+    "project management", "agile", "scrum", "kanban", "critical thinking",
+    "time management", "presentation", "collaboration",
+
+    # cybersecurity
+    "cybersecurity", "network security", "penetration testing",
+    "ethical hacking", "cryptography", "firewall", "siem",
+
+    # mobile development
+    "android", "ios", "react native", "flutter", "xamarin",
+
+    # other
+    "blockchain", "iot", "embedded systems", "arduino", "raspberry pi",
+    "figma", "ui/ux", "adobe xd", "photoshop", "seo"
 ]
 
 
