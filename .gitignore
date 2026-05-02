@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+.env
+*.bin
+*.pt
+models/
+.pytest_cache/
+.gradle/
+*.gradle
+build/
+*.class
